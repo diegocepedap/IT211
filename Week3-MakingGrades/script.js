@@ -2,6 +2,19 @@ var grades = "jim|25, sue|32, mary|34, ann|22, ted|28, frank|15, lisa|19, mike|3
 
 var gradesArray = grades.split(", ");
 
+//Displays students in alphabetical order
+gradesArray.sort(function(a, b) {
+  var nameA = a.split("|")[0].toUpperCase();
+  var nameB = b.split("|")[0].toUpperCase();
+  if (nameA < nameB) {
+    return -1;
+  }
+  if (nameA > nameB) {
+    return 1;
+  }
+  return 0;
+});
+
 var output = "";
 var totalStudents = gradesArray.length;
 var lowestScore = Infinity;
