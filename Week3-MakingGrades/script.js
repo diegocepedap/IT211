@@ -18,7 +18,8 @@ for (var i = 0; i < totalStudents; i++) {
 
   output += capitalizedFirstName + " - " + score + "\n";
 
-  // Update lowest and highest scores
+  // Update lowest
+  //Highest scores  
   if (score < lowestScore) {
     lowestScore = score;
   }
@@ -30,7 +31,7 @@ for (var i = 0; i < totalStudents; i++) {
 }
 
 var averageScore = sumScores / totalStudents;
-
+//Here we have the accessed to the data 
 console.log("Student Grades:\n" + output);
 console.log("Total Students: " + totalStudents);
 console.log("Lowest Score: " + lowestScore);
