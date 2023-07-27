@@ -1,0 +1,55 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #card-hand {
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: #81c6ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    font-size: 18px;
+    padding: 5px;
+    color: #333;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e2764b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #8cb7e5;
+  }
+  
+  button:active {
+    background-color: #86b8ee;
+  }
+  
+  button:focus {
+    outline: none;
+  }
